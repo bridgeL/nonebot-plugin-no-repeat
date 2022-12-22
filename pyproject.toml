@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nonebot_plugin_no_repeat"
+version = "0.0.1"
+description = "不要复读"
+authors = ["Su <wxlxy316@163.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/bridgeL/nonebot-plugin-no-repeat"
+packages = [
+    { include = "nonebot_plugin_no_repeat.py", from = "." },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.0.0b5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
