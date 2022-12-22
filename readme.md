@@ -1,8 +1,8 @@
 <div align="center">
 
-# 不要复读
+# nonebot_plugin_no_repeat 不要复读
 
-防止代码炸了在群里反复复读，让你写插件的时候更安全
+防止代码炸了在群里复读刷屏，让你写插件的时候更安全
 
 </div>
 
